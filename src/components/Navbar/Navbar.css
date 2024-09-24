@@ -1,0 +1,86 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: black;
+  margin-top: 0;
+  padding: 0;
+  background-color: rgb(255, 249, 249);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav-list.open {
+  display: block;
+}
+
+.nav-list li {
+  display: inline;
+  text-decoration: none;
+}
+
+.nav-list li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  color: rgb(2, 214, 2);
+}
+
+.flag-icon img {
+  height: 20px;
+  width: 20px;
+}
+.logo img {
+  height: 50px;
+  width: 37px;
+}
+.centered-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -70px;
+}
+
+.centered-logo img {
+  max-width: 100%;
+  height: 350px;
+  transition: transform 0.3s ease;
+}
+
+.centered-logo img:hover {
+  transform: scale(1.04);
+}
+
+.right-button {
+  position: absolute;
+  top: 50%;
+  right: 190px;
+  transform: translateY(-50%);
+  padding: 0.5rem 1rem;
+  background-color: rgb(235, 235, 235);
+  color: black;
+  border: none;
+  border-radius: 15px;
+  height: 40px;
+  width: 120px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+  cursor: pointer;
+  font-weight: 550;
+  font-size: 15px;
+}
+.arrow-icon {
+  font-size: 20px;
+  font-weight: 600;
+}
