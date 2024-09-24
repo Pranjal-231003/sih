@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+    padding: 0;
+  }
+.logo img {
+    height: 50px;
+    width: 37px;
+  }
+  .centered-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -70px;
+  }
+  
+  .centered-logo img {
+    max-width: 100%;
+    height: 350px;
+    transition: transform 0.3s ease;
+  }
+  
+  .centered-logo img:hover {
+    transform: scale(1.04);
+  }
+  
+  .right-button {
+    position: absolute;
+    top: 50%;
+    right: 190px;
+    transform: translateY(-50%);
+    padding: 0.5rem 1rem;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 15px;
+  }
+  .arrow-icon {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  

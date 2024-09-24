@@ -32,12 +32,7 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="centered-logo">
-        <img src={logo} alt="Website Logo" />
-        <button className="right-button">
-          Register <span className="arrow-icon">&uarr;</span>
-        </button>
-      </div>
+      
     </div>
   );
 }
