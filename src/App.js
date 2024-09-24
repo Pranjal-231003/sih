@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import UserProfile from "./components/UserProfile/UserProfile.js";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Signup/SignUp";
 import Navbar from "./components/Navbar/Navbar.js";
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <UserProfile />
       {/* <SignUp /> */}
       {/* <Login /> */}
       {/* <LandingPage /> */}

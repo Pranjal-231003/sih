@@ -1,0 +1,67 @@
+/* Button.css */
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.125rem; /* equivalent to text-lg */
+    font-weight: 600; /* equivalent to font-semibold */
+    background-color: #f9fafb; /* equivalent to bg-gray-50 */
+    border: 1px solid #0b0c0d;
+    border-radius: 50px; /* equivalent to rounded-full */
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); /* equivalent to shadow-xl */
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .custom-button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d5f6d2; /* emerald-500 */
+    left: -100%;
+    transition: all 0.7s ease;
+    z-index: -1;
+    border-radius: 50px; /* same as button border radius */
+  }
+  
+  .custom-button:hover::before {
+    left: 0;
+  }
+  
+  .custom-button:hover {
+    color: #f9fafb; /* Text color on hover */
+  }
+  
+  .button-icon {
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #374151; /* gray-700 */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: #f9fafb;
+    fill: #374151; /* gray-700 */
+    transform: rotate(45deg);
+  }
+  
+  .custom-button:hover .button-icon {
+    transform: rotate(90deg);
+    background-color: #f9fafb;
+    border: none;
+  }
+  
+  .button-icon-path {
+    fill: #1f2937; /* gray-800 */
+  }
+  
+  .custom-button:hover .button-icon-path {
+    fill: #1f2937;
+  }
+  
