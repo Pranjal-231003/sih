@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './ApplicationForm.css';  // Link to your CSS file
+import './ApplicationForm.css';  
 
 const ApplicationForm = () => {
-  // State to manage form inputs
   const [formData, setFormData] = useState({
     startupName: '',
     ayushCategory: '',
@@ -11,7 +10,6 @@ const ApplicationForm = () => {
     description: ''
   });
 
-  // Handle form input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -20,10 +18,8 @@ const ApplicationForm = () => {
     });
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Submit form logic here, e.g., send data to an API
     console.log('Form submitted:', formData);
   };
 

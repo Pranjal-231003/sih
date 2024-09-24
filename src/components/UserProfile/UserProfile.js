@@ -1,6 +1,6 @@
 import React from 'react';
 import './UserProfile.css';
-import Button from './Button'; // Import your button component
+import Button from './Button'; 
 
 const UserProfile = () => {
   return (

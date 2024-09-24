@@ -1,6 +1,5 @@
 import React from 'react';
-import './Button.css'; // Import the corresponding CSS file
-
+import './Button.css';
 const Button = () => {
   return (
     <button type="submit" className="custom-button">
