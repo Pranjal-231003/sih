@@ -1,0 +1,91 @@
+/* Resetting some default browser styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Removed display flex from body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Dedicated wrapper for centering form */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+    padding-top: 30px; 
+}
+
+/* Centering form and limiting its size */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form structure */
+.application-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.application-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;  /* Align labels to the left */
+    width: 100%; 
+}
+
+.application-form input, 
+.application-form select, 
+.application-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.application-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Button styling */
+.application-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.application-form button:hover {
+    background-color: #45a049;
+}
