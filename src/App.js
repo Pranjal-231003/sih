@@ -7,15 +7,17 @@ import SignUp from "./components/Signup/SignUp";
 import Navbar from "./components/Navbar/Navbar.js";
 import LandingPage from "./components/LandingPage/LandingPage.jsx";
 import ApplicationDashboard from "./components/Dashboard/ApplicationDashboard.jsx";
+import ApplicationsAdmin from "./components/ApplicationsAdmin/ApplicationsAdmin.jsx";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <ApplicationForm />
+      {/* <ApplicationForm /> */}
       {/* <SignUp /> */}
       {/* <Login /> */}
       {/* <LandingPage /> */}
       {/* <ApplicationDashboard/> */}
+      {/* <ApplicationsAdmin/> */}
     </div>
   );
 }

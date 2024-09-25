@@ -1,0 +1,59 @@
+/* Main container for the applications list */
+.applications-list {
+    padding: 20px;
+  }
+  
+  /* Each application card styling */
+  .application-card {
+    background-color: #d7f5d7;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: 120px;
+  }
+  
+  /* Increase gap between the cards */
+  .application-card + .application-card {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the text (startup name, application ID) */
+  .application-details {
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  .application-details p {
+    margin: 5px 0;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  /* Making bold text bolder */
+  .application-details p strong {
+    font-weight: 800;
+  }
+  
+  /* Button styling for the 'View Application' */
+  .view-button {
+    background-color: #4fa3f7;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 50px; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .view-button:hover {
+    background-color: #007acc;
+  }
+  
