@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./ApplicationsAdmin.css";
+import AdminNavbar from '../AdminNavbar/AdminNavbar'
 
 const ApplicationsAdmin = () => {
 
@@ -47,23 +48,25 @@ const ApplicationsAdmin = () => {
     // *******also add the admin navbar which is different from the normal user navbar***********
     
     return (
-    //   <AdminNavbar/>    // add the component after admin navbar
-    <div className="applications-list">
-      {fakeData.map((app) => (
-        <div key={app.id} className="application-card">
-          <div className="application-details">
-            <p><strong>Startup Name:-</strong> {app.startupName}</p>
-            <p><strong>Application ID:-</strong> {app.applicationId}</p>
-          </div>
-          <button
-            className="view-button"
-            onClick={() => window.location.href = `/view-application/${app.id}`}
-          >
-            View Application
-          </button>
+      <>
+        <AdminNavbar/>
+        <div className="applications-list">
+          {fakeData.map((app) => (
+            <div key={app.id} className="application-card">
+              <div className="application-details">
+                <p><strong>Startup Name:-</strong> {app.startupName}</p>
+                <p><strong>Application ID:-</strong> {app.applicationId}</p>
+              </div>
+              <button
+                className="view-button"
+                onClick={() => window.location.href = `/view-application/${app.id}`}
+              >
+                View Application
+              </button>
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
+      </>
   );
 }
 

@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       {/* <AdminNavbar /> */}
       {/* <AdminLandingPage /> */}
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <ApplicationForm /> */}
       {/* <SignUp /> */}
       {/* <Login /> */}
