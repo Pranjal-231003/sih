@@ -13,6 +13,11 @@ import AdminLandingPage from "./components/AdminLandingPage/AdminLandingPage.js"
 function App() {
   return (
     <div className="App">
+// <<<<<<< backend
+      {/* <Login /> */}
+      {/* <Navbar /> */}
+//       <SignUp />
+=======
       {/* <AdminNavbar /> */}
       {/* <AdminLandingPage /> */}
       {/* <Navbar /> */}
@@ -22,6 +27,7 @@ function App() {
       {/* <LandingPage /> */}
       {/* <ApplicationDashboard/> */}
       {/* <ApplicationsAdmin/> */}
+// >>>>>>> master
     </div>
   );
 }
