@@ -1,5 +1,5 @@
 import React from "react";
-import "../Admin navbar/AdminNavbar.css";
+import "../AdminNavbar/AdminNavbar.css";
 import logo from "../../images/logo.png";
 import flagIcon from "../../images/engFlag.png";
 

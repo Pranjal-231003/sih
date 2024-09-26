@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
-import "../Admin LandingPage/AdminLandingPage.css";
+import "../AdminLandingPage/AdminLandingPage.css";
 const AdminLandingPage = () => {
   return (
     <div className="centered-logo">

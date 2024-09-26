@@ -8,14 +8,14 @@ import Navbar from "./components/Navbar/Navbar.js";
 import LandingPage from "./components/LandingPage/LandingPage.jsx";
 import ApplicationDashboard from "./components/Dashboard/ApplicationDashboard.jsx";
 import ApplicationsAdmin from "./components/ApplicationsAdmin/ApplicationsAdmin.jsx";
-import AdminNavbar from "./components/Admin navbar/AdminNavbar.js";
-import AdminLandingPage from "./components/Admin LandingPage/AdminLandingPage.js";
+import AdminNavbar from "./components/AdminNavbar/AdminNavbar.js";
+import AdminLandingPage from "./components/AdminLandingPage/AdminLandingPage.js";
 function App() {
   return (
     <div className="App">
-      <AdminNavbar />
+      {/* <AdminNavbar /> */}
       {/* <AdminLandingPage /> */}
-      {/* <Navbar /> */}
+      <Navbar />
       {/* <ApplicationForm /> */}
       {/* <SignUp /> */}
       {/* <Login /> */}
