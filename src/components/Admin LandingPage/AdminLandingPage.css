@@ -21,19 +21,15 @@
   transform: scale(1.04);
 }
 
-.right-button {
+.right-text {
   position: absolute;
   top: 50%;
   right: 15vw;
   transform: translateY(-50%);
   padding: 0.5rem 1rem;
-  background-color: rgb(235, 235, 235);
   color: black;
-  border: none; 
-  border-radius: 15px; 
   height: 8vh;
   width: 10vw;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
   cursor: pointer;
   font-weight: 550;
   font-size: 3vh;

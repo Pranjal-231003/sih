@@ -2,16 +2,20 @@ import logo from "./logo.svg";
 import "./App.css";
 import UserProfile from "./components/UserProfile/UserProfile.js";
 import Login from "./components/Login/Login";
-import ApplicationForm from './components/ApplicationForm/ApplicationForm.js';
+import ApplicationForm from "./components/ApplicationForm/ApplicationForm.js";
 import SignUp from "./components/Signup/SignUp";
 import Navbar from "./components/Navbar/Navbar.js";
 import LandingPage from "./components/LandingPage/LandingPage.jsx";
 import ApplicationDashboard from "./components/Dashboard/ApplicationDashboard.jsx";
 import ApplicationsAdmin from "./components/ApplicationsAdmin/ApplicationsAdmin.jsx";
+import AdminNavbar from "./components/Admin navbar/AdminNavbar.js";
+import AdminLandingPage from "./components/Admin LandingPage/AdminLandingPage.js";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <AdminNavbar />
+      {/* <AdminLandingPage /> */}
+      {/* <Navbar /> */}
       {/* <ApplicationForm /> */}
       {/* <SignUp /> */}
       {/* <Login /> */}
