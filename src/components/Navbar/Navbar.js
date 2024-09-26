@@ -14,16 +14,16 @@ const Navbar = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">Dashboard</a>
+          <a href="/profile">Dashboard</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">Eligibility</a>
-        </li>
+        </li> */}
         <li>
           <a href="#">Contact Us</a>
         </li>
         <li className="sign-in">
-          <a href="#">Sign Up/Sign In</a>
+          <a href="/signup">Sign Up/Sign In</a>
         </li>
         <div className="flag-icon">
           <img src={flagIcon} alt="English Flag" />
