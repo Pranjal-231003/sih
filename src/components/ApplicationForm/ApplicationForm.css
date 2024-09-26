@@ -13,11 +13,14 @@ body {
 .form-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; 
     height: calc(100vh - 60px); 
-    padding-top: 30px; 
+    padding-top: 10px; 
+    margin-top: 10px; 
 }
-
+.application-form input[type="file"] {
+    margin-bottom: 30px; 
+}
 .container {
     padding: 20px;
     max-width: 600px;
@@ -76,9 +79,32 @@ header h1 {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    width: 100%;
+}
+
+.next-button {
+    width: 120px; 
+    margin-left: auto; 
+}
+
+
+.back-button {
+    height:40px;
+    width: 170px; 
+    margin-right: 300px; 
+}
+
+
+.submit-button {
+    height:40px;
+    width: 400px;
 }
 
 .application-form button:hover {
     background-color: #45a049;
+}
+
+
+.button-group {
+    display: flex;
+    justify-content: flex-end; 
 }

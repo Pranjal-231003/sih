@@ -16,7 +16,7 @@ function App() {
       {/* <AdminNavbar /> */}
       {/* <AdminLandingPage /> */}
       {/* <Navbar /> */}
-      {/* <ApplicationForm /> */}
+      <ApplicationForm />
       {/* <SignUp /> */}
       {/* <Login /> */}
       {/* <LandingPage /> */}
