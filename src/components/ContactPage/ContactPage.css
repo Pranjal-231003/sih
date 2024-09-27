@@ -1,0 +1,40 @@
+.contact-page-container {
+    background-color: #e0f2e9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+    margin: 20px auto;
+  }
+  
+  .contact-page-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .contact-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .contact-item p {
+    margin: 5px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-item {
+      width: 100%;
+    }
+  }
+  

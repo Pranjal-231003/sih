@@ -11,6 +11,7 @@ import ApplicationDashboard from "./components/Dashboard/ApplicationDashboard.js
 import ApplicationsAdmin from "./components/ApplicationsAdmin/ApplicationsAdmin.jsx";
 import AdminNavbar from "./components/AdminNavbar/AdminNavbar.js";
 import AdminLandingPage from "./components/AdminLandingPage/AdminLandingPage.js";
+import ContactPage from "./components/ContactPage/ContactPage.jsx";
 function App() {
   return (
     <Router>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/dashboard" element={<ApplicationDashboard />} />
           <Route path="/adminapplications" element={<ApplicationsAdmin />} />
           <Route path="/adminlanding" element={<AdminLandingPage />} />
+          {/* <Route path="?" element={<ContactPage />} />   // add the routing */}
         </Routes>
       </div>
     </Router>
