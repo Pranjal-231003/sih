@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ContactPage.css';  // Import the CSS file
+import './ContactPage.css';  
 
 const ContactPage = () => {
     const [contacts, setContacts] = useState([]);
@@ -16,9 +16,8 @@ const ContactPage = () => {
 //         console.error('Error fetching contacts:', error);
 //       }
 //     };
-
 //     fetchContacts();
-//     }, []);
+//     }, [dependency]);
     
 
     // fake data
